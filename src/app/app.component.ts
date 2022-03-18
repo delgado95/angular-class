@@ -16,7 +16,7 @@ export class AppComponent implements OnInit{
   }
 
   loadTitle(): void {
-    this.title = "Custo angular 1"
+    this.title = ""
   }
 
   changeTitle(event: any): void {
