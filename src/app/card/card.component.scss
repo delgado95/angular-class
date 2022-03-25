@@ -1,0 +1,16 @@
+.row{
+  margin: 5%;
+  align-items: center;
+  .card{
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 1em lightgray;
+    padding: 5px;
+    margin: 20px;
+  }
+}
