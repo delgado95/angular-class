@@ -1,8 +1,9 @@
 .row{
   margin: 5%;
+  display: flex;
+  justify-content: center;
   align-items: center;
   .card{
-    background-color: white;
     width: 150px;
     height: 100px;
     display: flex;
@@ -13,4 +14,12 @@
     padding: 5px;
     margin: 20px;
   }
+}
+
+.green{
+  background-color: chartreuse;
+}
+
+.white{
+  background-color: azure;
 }
