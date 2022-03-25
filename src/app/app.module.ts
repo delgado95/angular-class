@@ -5,20 +5,19 @@ import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
 import {FormsModule} from "@angular/forms";
 import { ContactComponent } from './contact/contact.component';
-import { FormComponent } from './form/form.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CardComponent } from './card/card.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     PageComponent,
     ContactComponent,
-    FormComponent
+    CardComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    FontAwesomeModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
