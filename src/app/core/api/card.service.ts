@@ -5,92 +5,92 @@ import { ICardList } from "../data/card.data";
 export class cardListService{
     public cardList: ICardList[] = [
         {
-            name: "joao",
+            name: "João",
             number: "19 99999-9999",
             isInternational: true 
         },
         {
-            name: "jose",
+            name: "José",
             number: "19 99999-9999",
             isInternational: true 
         },
         {
-            name: "maria",
+            name: "Maria",
             number: "19 99999-9999",
             isInternational: true 
         },
         {
-            name: "ana",
+            name: "Ana",
             number: "19 99999-9999",
             isInternational: true 
         },
         {
-            name: "joana",
+            name: "Joana",
             number: "19 99999-9999",
             isInternational: true 
         },
         {
-            name: "mario",
+            name: "Mario",
             number: "19 99999-9999",
             isInternational: true 
         },
         {
-            name: "bruno",
+            name: "Bruno",
             number: "19 99999-9999",
             isInternational: true 
         },
         {
-            name: "yoda",
+            name: "Yoda",
             number: "19 99999-9999",
             isInternational: false
         },
         {
-            name: "mcqueen",
+            name: "McQueen",
             number: "19 99999-9999",
             isInternational: false 
         },
         {
-            name: "will",
+            name: "Will",
             number: "19 99999-9999",
             isInternational: false 
         },
         {
-            name: "roberta",
+            name: "Roberta",
             number: "19 99999-9999",
             isInternational: true 
         },
         {
-            name: "roberto",
-            number: "19 99999-9999",
-            isInternational: true 
-        },
-        {
-            name: "fernanda",
-            number: "19 99999-9999",
-            isInternational: true 
-        },
-        {
-            name: "fernando",
-            number: "19 99999-9999",
-            isInternational: true 
-        },
-        {
-            name: "messi",
+            name: "R2-D2",
             number: "19 99999-9999",
             isInternational: false 
         },
         {
-            name: "cr7",
+            name: "Thanos",
             number: "19 99999-9999",
             isInternational: false 
         },
         {
-            name: "neymar",
+            name: "Fernando",
+            number: "19 99999-9999",
+            isInternational: true 
+        },
+        {
+            name: "Messi",
             number: "19 99999-9999",
             isInternational: false 
         },
         {
-            name: "marta",
+            name: "Cr7",
+            number: "19 99999-9999",
+            isInternational: false 
+        },
+        {
+            name: "Neymar",
+            number: "19 99999-9999",
+            isInternational: false 
+        },
+        {
+            name: "Marta",
             number: "19 99999-9999",
             isInternational: true 
         },
