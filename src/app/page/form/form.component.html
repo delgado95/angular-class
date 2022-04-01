@@ -1,0 +1,17 @@
+<div class="form">
+    <button (click)='open(dialog)'>Save</button>
+</div>
+<ng-template #dialog let-data let-ref='dialogRef'>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="phone">Numero de Telefone:</label><br><br>
+        <input 
+        type="tel" 
+        id="phone" 
+        name="phone" 
+        placeholder="1 1234-1234" 
+        pattern="[0-9]{1} [0-9]{4}-[0-9]{4}" required>
+        <input type="submit" value="Save">
+    </form>
+</ng-template>

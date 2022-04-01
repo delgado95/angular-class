@@ -6,6 +6,8 @@ import { PageComponent } from './test/page.component';
 import {FormsModule} from "@angular/forms";
 import { ContactComponent } from './contact/contact.component';
 import { CardComponent } from './card/card.component';
+import { FormComponent } from './form/form.component';
+import { NbThemeModule } from '@nebular/theme';
 
 
 @NgModule({
@@ -13,11 +15,13 @@ import { CardComponent } from './card/card.component';
     AppComponent,
     PageComponent,
     ContactComponent,
-    CardComponent
+    CardComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    NbThemeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
